@@ -40,12 +40,14 @@ const buildApp = async (opts: FastifyServerOptions = {}) => {
     console.log('Connection has been established successfully.');
   } catch (error) {
     console.error('Unable to connect to the database:', error);
+    process.exit(1);
   }
   try {
     await db.sync({ alter: true })
     console.log('All models were synchronized successfully.');
   } catch (error) {
     console.error('Unable to sync the database:', error);
+    process.exit(1);
   }
 
   // Routes

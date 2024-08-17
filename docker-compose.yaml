@@ -5,12 +5,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-app
-    restart: always
+    restart: on-failure
     ports:
       - "8080:8080"
     depends_on:
       - db
-      - test-db
   db:
     container_name: db
     build:
