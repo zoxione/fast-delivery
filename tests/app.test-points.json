@@ -1,0 +1,34 @@
+{
+  "v home": {
+    "longitude": 44.30951198624027,
+    "latitude": 46.302418152432665
+  },
+  "ne v home": {
+    "longitude": 44.310727711147734,
+    "latitude": 46.30211285662631
+  },
+  "na grani home": {
+    "longitude": 44.310550397148575,
+    "latitude": 46.30242596221507
+  },
+  "v hurule (nelzya)": {
+    "longitude": 44.284169515915494,
+    "latitude": 46.30968767671931
+  },
+  "okolo hurula": {
+    "longitude": 44.28653623094053,
+    "latitude": 46.31015900577077
+  },
+  "v kruge": {
+    "longitude": 44.31058313716824,
+    "latitude":  46.301521931432376
+  },
+  "ne v kruge": {
+    "longitude": 44.311143039119,
+    "latitude": 46.30117316210573
+  },
+  "dva polygona": {
+    "longitude": 44.310046182017715,
+    "latitude": 46.301858016136634
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "longitude": {
+      "minimum": -180,
+      "maximum": 180,
+      "description": "Долгота",
+      "type": "number"
+    },
+    "latitude": {
+      "minimum": -90,
+      "maximum": 90,
+      "description": "Широта",
+      "type": "number"
+    }
+  },
+  "required": [
+    "longitude",
+    "latitude"
+  ]
+}
