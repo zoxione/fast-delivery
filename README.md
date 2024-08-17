@@ -22,18 +22,22 @@ git clone https://github.com/zoxione/fast-delivery.git
 ```
 npm i
 ```
+3. Создать .env файлы согласно примерам:
+- .env.docker
+- .env.development (POSTGRESQL_URL в качестве хоста использует название контейнера)
+- .env.test (POSTGRESQL_URL в качестве хоста использует localhost)
 
 ### Запуск приложения (в проде)
 1. Поднять докер командой
 ```
-docker compose up
+npm run docker:compose
 ```
 2. Перейти в документацию [Swagger](http://localhost:8080/docs)
 
 ### Запуск интеграционных тестов
 1. Поднять докер командой (если этого не было сделано)
 ```
-docker compose up
+npm run docker:compose
 ```
 2. Запустить тесты
 ```
